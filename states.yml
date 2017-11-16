@@ -1,0 +1,80 @@
+---
+- name: Aveiro
+  abbr: Aveiro
+  country_id: 76
+
+- name: Azores
+  abbr: Azores
+  country_id: 76
+
+- name: Beja
+  abbr: Beja
+  country_id: 76
+
+- name: Braga
+  abbr: Braga
+  country_id: 76
+
+- name: Bragança
+  abbr: Bragança
+  country_id: 76
+
+- name: Castelo Branco
+  abbr: C. Branco
+  country_id: 76
+
+- name: Coimbra
+  abbr: Coimbra
+  country_id: 76
+
+- name: Évora
+  abbr: Évora
+  country_id: 76
+
+- name: Faro
+  abbr: Faro
+  country_id: 76
+
+- name: Guarda
+  abbr: Guarda
+  country_id: 76
+
+- name: Leiria
+  abbr: Leiria
+  country_id: 76
+
+- name: Lisboa
+  abbr: Lisboa
+  country_id: 76
+
+- name: Madeira
+  abbr: Madeira
+  country_id: 76
+
+- name: Portalegre
+  abbr: Portalegre
+  country_id: 76
+
+- name: Porto
+  abbr: Porto
+  country_id: 76
+
+- name: Santarém
+  abbr: Santarém
+  country_id: 76
+
+- name: Setúbal
+  abbr: Setúbal
+  country_id: 76
+
+- name: Viana do Castelo
+  abbr: Viana do C.
+  country_id: 76
+
+- name: Vila Real
+  abbr: Vila Real
+  country_id: 76
+
+- name: Viseu
+  abbr: Viseu
+  country_id: 76
