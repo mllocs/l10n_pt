@@ -10,7 +10,7 @@ if portugal && !lisboa
     'Beja',
     'Braga',
     'Bragança',
-    'Castelo',
+    'Castelo Branco',
     'Coimbra',
     'Évora',
     'Faro',
@@ -23,8 +23,7 @@ if portugal && !lisboa
     'Santarém',
     'Setúbal',
     'Viana do Castelo',
-    'Vila',
-    'Real',
+    'Vila Real',
     'Viseu'
   ]
 
