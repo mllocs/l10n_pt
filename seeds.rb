@@ -1,37 +1,19 @@
-portugal = Spree::Country.find_by_name('Portugal')
-lisboa = Spree::State.find_by_name('Lisboa')
+puts "[db:seed] Seeding states.yml"
 
-if portugal && !lisboa
-  puts "[db:seed] Seeding Portugal statoids"
+states = YAML::load_file "db/default/spree/states.yml"
 
-  statoids = [
-    'Aveiro',
-    'Azores',
-    'Beja',
-    'Braga',
-    'Bragança',
-    'Castelo Branco',
-    'Coimbra',
-    'Évora',
-    'Faro',
-    'Guarda',
-    'Leiria',
-    'Lisboa',
-    'Madeira',
-    'Portalegre',
-    'Porto',
-    'Santarém',
-    'Setúbal',
-    'Viana do Castelo',
-    'Vila Real',
-    'Viseu'
-  ]
+states.each do |state|
+  spree_country = Spree::Country.find_by_id(state['country_id'])
 
-  statoids.each do |state|
-    Spree::State.create!({
-      name: state,
-      abbr: state,
-      country: portugal
-    }, without_protection: true)
-  end
+  return unless country
+
+  spree_state = Spree::State.find_by_name(state['name'])
+
+  return if spree_state
+
+  Spree::State.create!({
+    name: state['name'],
+    abbr: state['abbr'],
+    country: spree_country
+  }, without_protection: true)
 end
