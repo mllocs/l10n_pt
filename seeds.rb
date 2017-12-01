@@ -5,7 +5,7 @@ states = YAML::load_file "db/default/spree/states.yml"
 states.each do |state|
   spree_country = Spree::Country.find_by_id(state['country_id'])
 
-  return unless country
+  return unless spree_country
 
   spree_state = Spree::State.find_by_name(state['name'])
 
