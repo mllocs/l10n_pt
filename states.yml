@@ -3,8 +3,8 @@
   abbr: Aveiro
   country_id: 76
 
-- name: Azores
-  abbr: Azores
+- name: Açores
+  abbr: Açores
   country_id: 76
 
 - name: Beja
@@ -68,7 +68,7 @@
   country_id: 76
 
 - name: Viana do Castelo
-  abbr: Viana do C.
+  abbr: V. do Castelo
   country_id: 76
 
 - name: Vila Real
